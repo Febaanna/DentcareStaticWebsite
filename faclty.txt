@@ -1,0 +1,21 @@
+<html>
+<head>
+<style>
+
+h1 {
+    background-image: linear-gradient(SlateBlue,SteelBlue);
+    
+    margin: auto;    
+    padding: 40px;
+    text-align: center;
+    
+}
+</style>
+</head>
+<body>
+<h1> <font color="white">FACILITIES</font></h1>
+
+
+
+</body>
+<html>

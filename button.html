@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 20px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  float:left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="LabWebsite.html">Home</a></li>
+  
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About US</a>
+    <div class="dropdown-content">
+      <a href="glance.html">* Glance</a>
+      <a href="faclty.html">* Faclty</a>
+      <a href="mang.html">. Management</a>
+      <a href="difference.html">. Difference</a>
+      <a href="assos.html">. Associate</a>
+      
+    </div>
+  </li>
+
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Our Bussiness</a>
+    <div class="dropdown-content">
+      <a href="prsessence.html">* Pressence</a>
+      
+      
+    </div>
+  </li>
+
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Our Product</a>
+    <div class="dropdown-content">
+      <a href="prsessence.html">* Pressence</a>
+      
+      
+    </div>
+  </li>
+
+</ul>
+
+
+
+</body>
+</html>
